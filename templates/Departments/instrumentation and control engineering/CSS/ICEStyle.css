@@ -1,0 +1,227 @@
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0 30px;
+}
+
+.profile-card {
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgb(59, 59, 59);
+    transition: .3s;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px -5px #ccc;
+}
+
+.profile-icon {
+    height: 130px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+    color: black;
+    text-align: center;
+}
+
+.profile-position {
+    font-size: 14px;
+    color: #777;
+    margin: 0px 0 10px 0;
+    text-align: center;
+}
+
+.profile-email{
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.button {
+    margin: 40px 0 0 0;
+    padding: 10px 30px;
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button:hover {
+    color: #fff;
+    background: #748dff;
+    border: 1px solid #748dff;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-card {
+        padding: 20px 15px;
+    }
+
+    .profile-name {
+        font-size: 16px;
+    }
+}
+
+
+.sn{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0e1b4d;
+    overflow: auto;
+    top: 22vh;
+      width: 257px;
+      margin-left: 2rem;
+      position: sticky;
+      height: 100vh;
+      text-align: center;
+  }
+  .snbul-single{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0e1b4d;
+    overflow: auto;
+    top: 22vh;
+      width: 257px;
+      margin-left: 2rem;
+      position: relative;
+      height: 100vh;
+  }
+  .snbul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 330px;
+    background-color: #0e1b4d;
+    position: absolute;
+    height: 45%;
+    overflow: auto;
+    top: 18rem;
+    margin-left: 4rem;
+  }
+  
+  .snbli a {
+    display: block;
+    color: #FFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .snbli a.active {
+    background-color: #FFD700;
+    color: #112363;
+  }
+  
+  .snbli a:hover:not(.active) {
+    background-color: #FFD700;
+    color: #112363;
+  }
+  
+  
+  ::-webkit-scrollbar-track
+  {
+    box-shadow: #fff;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar
+  {
+      width: 6px;
+      background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar-thumb
+  {
+      background-color: #000000;
+  }
+  
+
+  section{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin:0px 180px;
+}
+
+section div img{
+    background-size: cover;
+    height: 290px;
+    width: 220px;
+    align-items: center;
+    left: 520px;
+
+}
+section div img.sample{
+    display:block;
+    background-size: cover;
+    height: 150px;
+    width:400px;
+    position:center;
+    left: 380px;
+    margin: 50px;
+}
+section div h2{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+section div h4,h6{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+section div p{
+    text-align: justify;
+    margin: 25px 100px 25px 100px;
+    font-size:14px;  
+   
+    font-size: smaller;
+}
+.buttons{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 52, 119);
+    margin: 100px 20px 20px 20px;
+    width:150px;
+    height: 40px;
+    border-color: rgb(0, 0, 58);
+    text-align: center;
+    margin: 50px 550px 50px 550px;
+    
+}
+.buttons:hover{
+    background-color:white;
+    color: rgb(0, 52, 119);
+}
+
+

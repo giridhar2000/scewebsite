@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color: #000000;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0 30px;
+}
+
+.profile-card {
+    flex: 1 1 30%;
+    max-width: 350px;
+    background: #fff;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 #ccc;
+    transition: .3s;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px -5px #ccc;
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: large;
+    font-weight: bold;
+    width: 196px;
+    margin: 25px 0 10px 0;
+    text-align: center;
+}
+
+.profile-position {
+    font-size: initial;
+    width: 169%;
+    text-align: center;
+    color: #777;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .profile-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-card {
+        padding: 20px 15px;
+    }
+
+    .profile-name {
+        font-size: 16px;
+    }
+}
+.button {
+    margin: 40px 0 0 0;
+    padding: 10px 30px;
+    color: rgb(255, 247, 247);
+    text-decoration: none;
+    background-color: rgb(27, 27, 150);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+}
+
+.button:hover {
+    color: rgb(27, 27, 150);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-card {
+        padding: 20px 15px;
+    }
+
+    .profile-name {
+        font-size: 16px;
+    }
+}
+
+
+
+.profile-container-chem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profile-container-eng {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0 30px;
+    flex-wrap: wrap;
+}
