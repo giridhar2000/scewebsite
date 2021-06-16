@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0px 180px;
     font-size: small;
     color: #000000;
 }
@@ -66,7 +67,12 @@ body{
     text-align: left;
 }
 
+body{
 
+}
+#cont:hover{
+    transform: scale(1.02);
+}
 #vac-content{
     font-family: 'Poppins';
     position: relative;
